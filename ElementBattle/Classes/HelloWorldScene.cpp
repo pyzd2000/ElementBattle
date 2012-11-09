@@ -62,7 +62,7 @@ CCAffineTransform ChipmunkPhysicsSprite::nodeToParentTransform(void)
     float c = m_pBody->rot.x;
     float s = m_pBody->rot.y;
 
-    if( ! CCPoint::CCPointEqualToPoint(m_tAnchorPointInPoints, CCPointZero) ){
+    if( ! m_tAnchorPointInPoints.equals(CCPointZero) ){
         x += c*-m_tAnchorPointInPoints.x + -s*-m_tAnchorPointInPoints.y;
         y += s*-m_tAnchorPointInPoints.x + c*-m_tAnchorPointInPoints.y;
     }
