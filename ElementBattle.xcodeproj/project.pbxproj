@@ -232,7 +232,6 @@
 		B9E87683164CA9E0006AB1C5 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E87682164CA9E0006AB1C5 /* AppDelegate.cpp */; };
 		B9E87686164CA9E0006AB1C5 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9E87685164CA9E0006AB1C5 /* HelloWorldScene.cpp */; };
 		B9E87688164CA9E0006AB1C5 /* grossini_dance_atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = B9E87687164CA9E0006AB1C5 /* grossini_dance_atlas.png */; };
-		B9E8768F164CAE45006AB1C5 /* damage_table.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9E8768E164CAE45006AB1C5 /* damage_table.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -725,7 +724,6 @@
 		B9E87684164CA9E0006AB1C5 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		B9E87685164CA9E0006AB1C5 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
 		B9E87687164CA9E0006AB1C5 /* grossini_dance_atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_atlas.png; path = Resources/grossini_dance_atlas.png; sourceTree = "<group>"; };
-		B9E8768E164CAE45006AB1C5 /* damage_table.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = damage_table.plist; path = Resources/damage_table.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -808,7 +806,6 @@
 				B9E873AC164CA9DB006AB1C5 /* iTunesArtwork */,
 				B9E873AE164CA9DB006AB1C5 /* Info.plist */,
 				B9E87687164CA9E0006AB1C5 /* grossini_dance_atlas.png */,
-				B9E8768E164CAE45006AB1C5 /* damage_table.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1787,7 +1784,6 @@
 				B9E873AD164CA9DB006AB1C5 /* iTunesArtwork in Resources */,
 				B9E8743F164CA9DC006AB1C5 /* ChangeLog in Resources */,
 				B9E87688164CA9E0006AB1C5 /* grossini_dance_atlas.png in Resources */,
-				B9E8768F164CAE45006AB1C5 /* damage_table.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2134,6 +2130,7 @@
 				B9E8768D164CA9E0006AB1C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
